@@ -1,9 +1,19 @@
 # Calculate bmi
 # Author: Ioan Domsa
 
-# Inputs
-weight = 65
-height = 180
+# Input weight
+weight = float(input("please enter weight :"))
+# input has to be a positive number
+while weight <= 0:
+    print("number is not positive")
+    weight = float(input("please enter a positive number :"))
+
+# Input height
+height = float(input("please enter height :"))
+# input has to be a positive number
+while height <= 0:
+    print("number is not positive")
+    height = float(input("please enter a positive number :"))
 
 # BMI formula; round 2 decimals
 BMI = round((weight * 10000)/(height**2), 2)

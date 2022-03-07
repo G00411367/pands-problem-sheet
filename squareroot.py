@@ -3,9 +3,16 @@
 
 number = float(input("please enter a positive number :"))
 
+# number needs to be positive
+while number <= 0:     
+    print("number is not positive")
+    number = float(input("please enter a positive number :"))
+
+# define the function
 def sqrt(number):
-    # initial guess, the number or for large numbers start with lalf 
+    # initial guess can start with half of the number 
     guess = (number/2)
+    # accuracy of root calculation
     precision = 0.05
     
     while True :

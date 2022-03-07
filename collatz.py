@@ -5,15 +5,15 @@
 # programs end if the current value is 1
 
 n = int(input("please enter a positive integer :"))
-# numbers = []
 
-if n < 0:
+# number must be positive
+while n <= 0:
     print("Number is not positive ")
     n = int(input("please enter a positive integer :"))
 numbers = []
 
-numbers.append(n) # add first number to the list
-
+# add first number to the list
+numbers.append(n) 
 while n > 1: 
         if (n % 2) == 0:
             evenN = int(n/2)
@@ -25,9 +25,6 @@ while n > 1:
             n = int(oddN)
 print (numbers)
 
-# else:
-    # print ("number entered is not a positive integer :")
-    # n = int(input ("please eneter again :"))
 
 
 
