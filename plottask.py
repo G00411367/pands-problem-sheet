@@ -1,4 +1,4 @@
-# This program plots following functions f(x)=x, g(x)=x^2 and h(x)=x^3
+# This program plots functions f(x)=x, g(x)=x^2 and h(x)=x^3
 # in the range [0,4]
 # Author Ioan Domsa
 

@@ -1,4 +1,4 @@
-# Calculate sqaure root of a positive floating number using Newton-Raphson method
+# Calculate the sqaure root of a positive floating number using Newton-Raphson method
 # Author Ioan Domsa
 
 number = float(input("please enter a positive number :"))

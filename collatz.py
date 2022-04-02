@@ -1,5 +1,5 @@
 # This program ask user to input a positive integer
-# then outputs the succesive values of calculation:
+# then it outputs the succesive values of calculation:
 # at each step calculate the next value by taking current value and 
 # if it is even divide it by 2, but 
 # if odd, multiply by 3 and add 1

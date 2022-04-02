@@ -1,5 +1,5 @@
 # This program reads in a text file from a command line argument
-# and outputs the number of e's it contains
+# and outputs the number of e's it contains 
 
 # Author: Ioan Domsa
 
@@ -7,7 +7,7 @@ import os
 # ask user to specify the file name
 
 filename = input("please enter the file name :").strip()
-# define a function that reads the number of characters 'e'
+# define a function that reads the number of characters "e"
 def doReadletter(filename):
    with open(filename, "r") as f:
      text = f.read()

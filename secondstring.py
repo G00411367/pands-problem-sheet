@@ -1,5 +1,6 @@
 # This program reads in a string
 # And outputs every seccond character of the string in reverse order
+# Author; Ioan Domsa
 
 a = input('Please enter a sentence : ')
 

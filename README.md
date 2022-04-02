@@ -1,4 +1,4 @@
-# Pands-problem-sheet
+# Pands Problem Sheet
 ## Author: Ioan Domsa
 ## Programing and Scripting 2022
 
@@ -6,8 +6,8 @@
 
 Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py
 
-* The user is asked to input a person's height in centimetres and weight in kilograms.
-* The code outputs their BMI.
+* The user is asked to input a person's height in centimetres and weight in kilograms
+* The code outputs their BMI
 
 Code
 ```

@@ -1,7 +1,8 @@
 # Calculate BMI of a person
 # Author: Ioan Domsa
 
-# request to input weight; input can be decimal
+
+# request to input weight; input can be a decimal
 weight = float(input("Enter weight (kg): "))
 # input has to be a positive number
 while weight <= 0:
