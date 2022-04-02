@@ -6,7 +6,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 step = 0.25 # set a calculation step for the plot to be smoother 
 xpoints = np.arange(0, 5, step)
-# define the functions
+
+# define the functions f(x), g(x) and h(x)
 fx = xpoints
 gx = np.power(xpoints, 2)
 hx = np.power(xpoints, 3)

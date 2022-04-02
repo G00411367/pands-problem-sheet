@@ -1,6 +1,7 @@
-# this program outputs whether or not today is a weekday
+# This program outputs whether or not today is a weekday
+# Author : Ioan Domsa
 
-# import the datetme module
+# import the datetime module
 import datetime 
 
 # store weekdays in a list
